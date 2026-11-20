@@ -1,9 +1,5 @@
 # ♟️ Chess Tactics — Cờ Vua Chiến Thuật (Android)
 
-![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Language](https://img.shields.io/badge/Language-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Backend](https://img.shields.io/badge/Realtime-Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Database](https://img.shields.io/badge/Storage-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
 **Chess Tactics (Cờ Vua Chiến Thuật)** là ứng dụng cờ vua trên nền tảng Android được thiết kế theo phong cách **Dark Tactical UI**, tích hợp trí tuệ nhân tạo (AI) nhiều cấp độ, chế độ đấu trực tuyến thời gian thực qua Firebase Realtime Database, hệ thống lưu trữ lịch sử ván đấu bằng SQLite và trình phát lại nước đi (Replay).
 
