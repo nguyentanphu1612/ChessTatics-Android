@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name & Hero Banner -->
+    <string name="app_name">Chess Tactics</string>
+    <string name="hero_eyebrow">TACTICAL ARENA</string>
+    <string name="hero_subtitle">Checkmate Opponent • AI • Online Duel</string>
+    <string name="subtitle_app">Checkmate Opponent • AI • Online Duel</string>
+
+    <!-- Statistics -->
+    <string name="stat_total">Total</string>
+    <string name="stat_wins">Victories</string>
+    <string name="stat_winrate">Win Rate</string>
+    <string name="stats_summary_format">Played: %1$d  •  Wins: %2$d  •  Rate: %3$d%%</string>
+
+    <!-- Match Configuration (Home) -->
+    <string name="config_match_title">MATCH CONFIGURATION</string>
+    <string name="radio_vs_ai">Play vs AI</string>
+    <string name="radio_2_players">2 Players (1 Device)</string>
+    <string name="label_choose_side">Choose your side:</string>
+    <string name="label_time_control">Time control per player:</string>
+    <string name="label_ai_level">AI Difficulty:</string>
+    <string name="btn_start_match">START MATCH</string>
+    <string name="btn_play_online_upper">PLAY ONLINE</string>
+
+    <!-- Quick Cards & Bottom Navigation -->
+    <string name="card_history_replay">History &amp; Replay</string>
+    <string name="card_custom_skin">Themes &amp; Skins</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_play">Play</string>
+    <string name="nav_history">History</string>
+    <string name="nav_skin">Themes</string>
+    <string name="sound_toggle_label">Sound Effects</string>
+    <string name="language_toggle_label">Language (VI / EN)</string>
+
+    <!-- Game Modes & AI Levels -->
+    <string name="play_vs_ai">Play vs AI</string>
+    <string name="play_2_players">2 Players (1 Device)</string>
+    <string name="play_online">Play Online</string>
+    <string name="match_history">Match History</string>
+    <string name="skin_shop">Board Themes</string>
+
+    <string name="mode_ai_easy">Easy (Novice)</string>
+    <string name="mode_ai_hard">Hard (Master)</string>
+    <string name="mode_ai_extreme">Extreme (Grandmaster)</string>
+    <string name="mode_pvp">2 Players (Local)</string>
+    <string name="mode_online">Online Duel</string>
+
+    <!-- Side & Time Control -->
+    <string name="select_ai_difficulty">Select AI Difficulty</string>
+    <string name="select_side">Select Your Side</string>
+    <string name="select_time_control">Select Time Control</string>
+    <string name="play_as_white">White Pieces (Move First)</string>
+    <string name="play_as_black">Black Pieces (Move Second)</string>
+    <string name="side_white">White</string>
+    <string name="side_black">Black</string>
+    <string name="side_pvp_both">White moves first • Black second</string>
+
+    <string name="time_unlimited">Unlimited Time</string>
+    <string name="time_1_min">10 Minute </string>
+    <string name="time_5_min">15 Minutes </string>
+    <string name="time_10_min">30 Minutes </string>
+    <string name="time_15_min">45 Minutes </string>
+
+    <!-- Game Screen -->
+    <string name="turn_your_turn">Your Turn</string>
+    <string name="turn_opponent">Opponent\'s Turn...</string>
+    <string name="turn_ai_thinking">AI is thinking...</string>
+    <string name="flip_board">Flip</string>
+    <string name="hint_count_format">Hint (%1$d)</string>
+    <string name="undo_move">Undo</string>
+    <string name="resign_game">Resign</string>
+
+    <!-- Pawn Promotion Dialog -->
+    <string name="choose_promotion">Promote Pawn To</string>
+    <string name="piece_queen">Queen</string>
+    <string name="piece_rook">Rook</string>
+    <string name="piece_bishop">Bishop</string>
+    <string name="piece_knight">Knight</string>
+
+    <!-- End Game & Reasons -->
+    <string name="resign_title">Resign Match</string>
+    <string name="resign_confirm_msg">Are you sure you want to resign this match?</string>
+    <string name="yes">Yes</string>
+    <string name="no">Cancel</string>
+    <string name="dialog_victory">VICTORY!</string>
+    <string name="dialog_defeat">DEFEAT</string>
+    <string name="dialog_draw">DRAW</string>
+    <string name="dialog_white_wins">WHITE WINS!</string>
+    <string name="dialog_black_wins">BLACK WINS!</string>
+    <string name="dialog_reason_prefix">Reason: %1$s</string>
+    <string name="back_to_menu">Back to Home</string>
+
+    <string name="reason_checkmate">Checkmate</string>
+    <string name="reason_you_resigned">You resigned the match</string>
+    <string name="reason_opponent_resigned">Opponent resigned the match</string>
+    <string name="reason_white_resigned">White resigned the match</string>
+    <string name="reason_black_resigned">Black resigned the match</string>
+    <string name="reason_you_timeout">You ran out of time</string>
+    <string name="reason_opponent_timeout">Opponent ran out of time</string>
+    <string name="reason_white_timeout">White ran out of time</string>
+    <string name="reason_black_timeout">Black ran out of time</string>
+    <string name="reason_disconnect">Opponent disconnected from the match</string>
+    <string name="reason_stalemate">Draw by Stalemate (No legal moves)</string>
+    <string name="reason_insufficient_material">Draw by Insufficient Material</string>
+    <string name="reason_fifty_move">Draw by Fifty-Move Rule</string>
+    <string name="reason_threefold">Draw by Threefold Repetition</string>
+    <string name="reason_draw_generic">Match ended in a draw</string>
+
+    <!-- Online Lobby (Firebase) -->
+    <string name="create_room">Create New Room</string>
+    <string name="join_room">Join Room</string>
+    <string name="enter_6_digit_code">Enter 6-digit code</string>
+    <string name="invalid_room_code">Please enter a valid 6-digit room code!</string>
+    <string name="room_code_banner">Room Code: %1$s (Copied)</string>
+    <string name="waiting_opponent_with_code">Waiting for opponent (Code: %1$s)...</string>
+    <string name="opponent_joined">Opponent joined! Match started.</string>
+    <string name="error_room_not_found">Room not found! Please check the 6-digit code.</string>
+    <string name="error_room_full">This room is full or the match has already started!</string>
+    <string name="error_network_timeout">Connection timed out! Please check your internet connection.</string>
+
+    <!-- Match History & Replay -->
+    <string name="clear_all">Clear All</string>
+    <string name="filter_all">All</string>
+    <string name="result_win">WIN</string>
+    <string name="result_loss">LOSS</string>
+    <string name="result_draw">DRAW</string>
+    <string name="history_moves_format">%1$d moves • %2$s</string>
+    <string name="delete_match">Delete Match</string>
+    <string name="confirm_delete_match">Are you sure you want to delete this match record?</string>
+    <string name="confirm_clear_history">Are you sure you want to clear all match history?</string>
+
+    <string name="replay_prev">◀ Prev</string>
+    <string name="replay_auto">▶ Auto</string>
+    <string name="replay_next">Next ▶</string>
+
+    <!-- Board Skin Shop -->
+    <string name="skin_preview_title">Live Board Preview</string>
+    <string name="skin_in_use">Active</string>
+    <string name="skin_apply">Apply</string>
+    <string name="theme_green">Tournament Green</string>
+    <string name="theme_wood">Classic Wood</string>
+    <string name="theme_blue">Royal Blue</string>
+    <string name="theme_marble">Dark Marble</string>
+</resources>

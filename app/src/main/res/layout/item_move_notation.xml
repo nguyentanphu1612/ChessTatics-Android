@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvMovePair"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="10dp"
+    android:background="#262932"
+    android:gravity="center"
+    android:paddingHorizontal="8dp"
+    android:textColor="#CFD8DC"
+    android:textSize="13sp" />

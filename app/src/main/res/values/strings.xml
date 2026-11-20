@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tên ứng dụng & Hero Banner -->
+    <string name="app_name">Cờ Vua Chiến Thuật</string>
+    <string name="hero_eyebrow">ĐẤU TRƯỜNG TRÍ TUỆ</string>
+    <string name="hero_subtitle">Chiếu hết đối thủ • AI • Đấu Online</string>
+    <string name="subtitle_app">Chiếu hết đối thủ • AI • Đấu Online</string>
+
+    <!-- Thống kê -->
+    <string name="stat_total">Tổng trận</string>
+    <string name="stat_wins">Chiến thắng</string>
+    <string name="stat_winrate">Tỷ lệ thắng</string>
+    <string name="stats_summary_format">Đã đấu: %1$d  •  Thắng: %2$d  •  Tỷ lệ: %3$d%%</string>
+
+    <!-- Cấu hình trận đấu (Trang chủ) -->
+    <string name="config_match_title">CẤU HÌNH TRẬN ĐẤU</string>
+    <string name="radio_vs_ai">Đấu với AI</string>
+    <string name="radio_2_players">2 Người (1 máy)</string>
+    <string name="label_choose_side">Chọn phe quân cờ:</string>
+    <string name="label_time_control">Tổng thời gian suy nghĩ mỗi bên:</string>
+    <string name="label_ai_level">Cấp độ AI:</string>
+    <string name="btn_start_match">BẮT ĐẦU TRẬN ĐẤU</string>
+    <string name="btn_play_online_upper">ĐẤU ONLINE</string>
+
+    <!-- Thẻ chức năng & Thanh điều hướng dưới cùng -->
+    <string name="card_history_replay">Lịch sử &amp; Replay</string>
+    <string name="card_custom_skin">Tùy chỉnh &amp; Skin</string>
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_play">Chơi ngay</string>
+    <string name="nav_history">Lịch sử</string>
+    <string name="nav_skin">Giao diện</string>
+    <string name="sound_toggle_label">Âm thanh</string>
+    <string name="language_toggle_label">Ngôn ngữ (VI / EN)</string>
+
+    <!-- Chế độ chơi & Cấp độ AI -->
+    <string name="play_vs_ai">Đấu với AI</string>
+    <string name="play_2_players">2 Người (1 máy)</string>
+    <string name="play_online">Đấu Online</string>
+    <string name="match_history">Lịch sử trận đấu</string>
+    <string name="skin_shop">Cửa hàng Skin</string>
+
+    <string name="mode_ai_easy">Dễ (Tập sự)</string>
+    <string name="mode_ai_hard">Khó (Kiện tướng)</string>
+    <string name="mode_ai_extreme">Cực hạn (Đại kiện tướng)</string>
+    <string name="mode_pvp">2 Người (1 máy)</string>
+    <string name="mode_online">Đấu Online</string>
+
+    <!-- Chọn phe & Thời gian -->
+    <string name="select_ai_difficulty">Chọn cấp độ AI</string>
+    <string name="select_side">Chọn phe quân cờ</string>
+    <string name="select_time_control">Chọn thời gian suy nghĩ</string>
+    <string name="play_as_white">Quân Trắng (Đi trước)</string>
+    <string name="play_as_black">Quân Đen (Đi sau)</string>
+    <string name="side_white">Quân Trắng</string>
+    <string name="side_black">Quân Đen</string>
+    <string name="side_pvp_both">Trắng đi trước • Đen đi sau</string>
+
+    <string name="time_unlimited">Không giới hạn thời gian</string>
+    <string name="time_1_min">10 phút </string>
+    <string name="time_5_min">15 phút </string>
+    <string name="time_10_min">30 phút </string>
+    <string name="time_15_min">45 phút </string>
+
+    <!-- Màn hình chơi cờ -->
+    <string name="turn_your_turn">Lượt của bạn</string>
+    <string name="turn_opponent">Đang chờ đối thủ...</string>
+    <string name="turn_ai_thinking">AI đang tính toán...</string>
+    <string name="flip_board">Lật bàn</string>
+    <string name="hint_count_format">Gợi ý (%1$d)</string>
+    <string name="undo_move">Đi lại</string>
+    <string name="resign_game">Đầu hàng</string>
+
+    <!-- Hộp thoại Phong cấp Tốt -->
+    <string name="choose_promotion">Chọn quân phong cấp</string>
+    <string name="piece_queen">Quân Hậu </string>
+    <string name="piece_rook">Quân Xe </string>
+    <string name="piece_bishop">Quân Tượng </string>
+    <string name="piece_knight">Quân Mã </string>
+
+    <!-- Hộp thoại Kết thúc & Lý do -->
+    <string name="resign_title">Xác nhận đầu hàng</string>
+    <string name="resign_confirm_msg">Bạn có chắc muốn đầu hàng ván cờ này không?</string>
+    <string name="yes">Đồng ý</string>
+    <string name="no">Hủy</string>
+    <string name="dialog_victory">CHIẾN THẮNG!</string>
+    <string name="dialog_defeat">THẤT BẠI</string>
+    <string name="dialog_draw">HÒA CỜ</string>
+    <string name="dialog_white_wins">QUÂN TRẮNG THẮNG!</string>
+    <string name="dialog_black_wins">QUÂN ĐEN THẮNG!</string>
+    <string name="dialog_reason_prefix">Lý do: %1$s</string>
+    <string name="back_to_menu">Về trang chủ</string>
+
+    <string name="reason_checkmate">Chiếu hết (Checkmate)</string>
+    <string name="reason_you_resigned">Bạn đã đầu hàng</string>
+    <string name="reason_opponent_resigned">Đối thủ đã đầu hàng</string>
+    <string name="reason_white_resigned">Quân Trắng đã đầu hàng</string>
+    <string name="reason_black_resigned">Quân Đen đã đầu hàng</string>
+    <string name="reason_you_timeout">Bạn đã hết thời gian suy nghĩ</string>
+    <string name="reason_opponent_timeout">Đối thủ đã hết thời gian suy nghĩ</string>
+    <string name="reason_white_timeout">Quân Trắng đã hết thời gian</string>
+    <string name="reason_black_timeout">Quân Đen đã hết thời gian</string>
+    <string name="reason_disconnect">Đối thủ đã thoát khỏi trận đấu</string>
+    <string name="reason_stalemate">Hòa cờ (Hết nước đi hợp lệ - Stalemate)</string>
+    <string name="reason_insufficient_material">Hòa cờ (Không đủ lực lượng chiếu hết)</string>
+    <string name="reason_fifty_move">Hòa cờ (Theo luật 50 nước đi)</string>
+    <string name="reason_threefold">Hòa cờ (Lặp lại thế cờ 3 lần)</string>
+    <string name="reason_draw_generic">Ván đấu kết thúc hòa</string>
+
+    <!-- Đấu Online (Firebase) -->
+    <string name="create_room">Tạo phòng mới</string>
+    <string name="join_room">Vào phòng</string>
+    <string name="enter_6_digit_code">Nhập mã 6 số</string>
+    <string name="invalid_room_code">Vui lòng nhập đúng mã phòng 6 chữ số!</string>
+    <string name="room_code_banner">Mã phòng: %1$s (Đã sao chép)</string>
+    <string name="waiting_opponent_with_code">Chờ đối thủ (Mã: %1$s)...</string>
+    <string name="opponent_joined">Đối thủ đã vào phòng! Trận đấu bắt đầu.</string>
+    <string name="error_room_not_found">Không tìm thấy phòng! Vui lòng kiểm tra lại mã 6 số.</string>
+    <string name="error_room_full">Phòng này đã đủ người hoặc trận đấu đã bắt đầu!</string>
+    <string name="error_network_timeout">Kết nối máy chủ quá hạn! Vui lòng kiểm tra mạng Internet.</string>
+
+    <!-- Lịch sử trận đấu & Xem lại (Replay) -->
+    <string name="clear_all">Xóa hết</string>
+    <string name="filter_all">Tất cả</string>
+    <string name="result_win">THẮNG</string>
+    <string name="result_loss">THUA</string>
+    <string name="result_draw">HÒA</string>
+    <string name="history_moves_format">%1$d nước đi • %2$s</string>
+    <string name="delete_match">Xóa trận đấu</string>
+    <string name="confirm_delete_match">Bạn có chắc muốn xóa lịch sử trận đấu này không?</string>
+    <string name="confirm_clear_history">Bạn có chắc muốn xóa toàn bộ lịch sử trận đấu không?</string>
+
+    <string name="replay_prev">◀ Trước</string>
+    <string name="replay_auto">▶ Tự động</string>
+    <string name="replay_next">Sau ▶</string>
+
+    <!-- Cửa hàng Skin bàn cờ -->
+    <string name="skin_preview_title">Xem trước bàn cờ trực tiếp</string>
+    <string name="skin_in_use">Đang dùng</string>
+    <string name="skin_apply">Áp dụng</string>
+    <string name="theme_green">Xanh Giải Đấu </string>
+    <string name="theme_wood">Gỗ Cổ Điển </string>
+    <string name="theme_blue">Xanh Hoàng Gia </string>
+    <string name="theme_marble">Đá Cẩm Thạch</string>
+</resources>
