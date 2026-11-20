@@ -68,7 +68,7 @@ app/src/main/java/com/example/chesstactics/
 
 | Màn hình chính & Cấu hình | Bàn cờ chiến thuật & Gợi ý AI | Lịch sử & Xem lại (Replay) |
 | :---: | :---: | :---: |
-| | ![Home](screenshots/home.jpg) | ![Gameplay](screenshots/gameplay.jpg) | ![History](screenshots/history.jpg) |
+| ![Home](screenshots/home.jpg) | ![Gameplay](screenshots/gameplay.jpg) | ![History](screenshots/history.jpg) |
 
 ---
 
