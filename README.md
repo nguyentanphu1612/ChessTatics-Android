@@ -20,7 +20,7 @@
 * **Gợi ý nước đi AI (Hint):** Phân tích thế cờ hiện tại và đề xuất nước đi tối ưu (tối đa 3 lần/trận).
 * **Đi lại (Undo):** Hoàn tác nước đi trong các chế độ chơi Offline.
 * **Ghi biên bản chuẩn SAN:** Hiển thị thanh lịch sử nước đi theo ký hiệu đại số chuẩn (`Nf3`, `O-O`, `exd5`...) ngay trong trận đấu.
-* **Tùy chỉnh đồng hồ thi đấu:** Không giới hạn, 1 phút (Siêu chớp), 5 phút (Cờ chớp), 10 phút (Cờ nhanh), 15 phút (Tiêu chuẩn).
+* **Tùy chỉnh đồng hồ thi đấu:** Không giới hạn, 10 phút, 15 phút, 30 phút, 45 phút.
 
 ### 3. Lịch sử trận đấu & Trình xem lại (Replay)
 * Tự động lưu trữ toàn bộ lịch sử ván đấu vào cơ sở dữ liệu cục bộ **SQLite**.
@@ -68,7 +68,7 @@ app/src/main/java/com/example/chesstactics/
 
 | Màn hình chính & Cấu hình | Bàn cờ chiến thuật & Gợi ý AI | Lịch sử & Xem lại (Replay) |
 | :---: | :---: | :---: |
-| *(Thêm ảnh chụp màn hình tại đây)* | *(Thêm ảnh chụp màn hình tại đây)* | *(Thêm ảnh chụp màn hình tại đây)* |
+| | ![Home](screenshots/home.jpg) | ![Gameplay](screenshots/gameplay.jpg) | ![History](screenshots/history.jpg) |
 
 ---
 
